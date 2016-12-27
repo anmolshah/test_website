@@ -1,6 +1,7 @@
 html {
 	font-size: 17px;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+	background-color: #000000;
 	
 }
 img[src]{
@@ -16,11 +17,25 @@ img.center {
 h1 {
 	font-size: 60px;
 	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 20px 0;
+	color: #ffffff;
+    text-shadow: 3px 3px 1px black;
 }
 
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #A9A9A9;
+    padding: 0 20px 20px 20px;
+    border: 5px solid white;
+}
 p, li {
   font-size: 16px;    
   line-height: 2;
   letter-spacing: 1px;
   text-align: center;
+  color: white;
 }
